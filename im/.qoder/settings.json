@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev)",
+      "Bash(npm run build)",
+      "Bash(npm run seed)",
+      "Bash(npx tsx tests/*)",
+      "Read",
+      "Edit",
+      "Write",
+      "Glob",
+      "Grep"
+    ],
+    "deny": []
+  },
+  "mcpServers": {
+    "im-api": {
+      "command": "node",
+      "args": ["mcp-server/mcp-server.js"],
+      "env": {}
+    }
+  }
+}

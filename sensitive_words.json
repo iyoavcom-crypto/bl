@@ -1,0 +1,10316 @@
+[
+  {
+    "word": "赌博",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "网赌",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "博彩",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "菠菜",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "六合彩",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "时时彩",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "北京赛车",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "PC蛋蛋",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "幸运飞艇",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "快三",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "二八杠",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "三公",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "推筒子",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "百家乐",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "老虎机",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "捕鱼机",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "扎金花",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "炸金花",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "牛牛",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "牌九",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "龙虎斗",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "骰宝",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "轮盘",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "赌球",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "赌马",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "外围",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "外围球",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "赔率",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "上分",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "下分",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "抽水",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "返水",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "狗庄",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "闲家",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "庄家",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "追杀",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "杀数",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "资金盘",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "流水",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "倍投",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "计划群",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "内幕料",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "埋雷",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "踩雷",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "扫雷红包",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "接龙红包",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "棋牌源码",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "赌博网站",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "特码",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "地下六合彩",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "香港六合彩",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "澳门金沙",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "威尼斯人",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "新葡京",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "真人视讯",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "电子游艺",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "体育投注",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "彩票代购",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "重庆时时彩",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "天津时时彩",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "新疆时时彩",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "腾讯分分彩",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "奇趣分分彩",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "河内五分彩",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "澳洲幸运5",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "澳洲幸运10",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "极速时时彩",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "极速赛车",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "幸运28",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "加拿大28",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "台湾宾果",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "单注",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "复式",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "胆拖",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "跨度",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "和值",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "龙虎和",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "大小单双",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "冠亚和",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "冠亚军",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "龙虎",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "庄闲",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "闲对",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "庄对",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "连赢",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "连输",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "止盈",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "挂机",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "挂机软件",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "自动投注",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "打水",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "对刷",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "刷流",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "带单老师",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "计划员",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "精算师",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "内部计划",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "必中计划",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "稳赢计划",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "挂机方案",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "倍投方案",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "导师带队",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "团队带人",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "亏损包赔",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "注册送金",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "首存优惠",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "体验金",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "试玩金",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "出千",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "换牌",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "透视杯",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "隐形眼镜",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "遥控骰子",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "密码扑克",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "程序控制",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "后台控制",
+    "category": "违法相关：赌博",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "贩毒",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "吸毒",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "冰毒",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "海洛因",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "大麻",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "摇头丸",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "K粉",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "毒品",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "可卡因",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "吗啡",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "芬太尼",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "罂粟",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "丧尸药",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "蓝精灵",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "浴盐",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "恰特草",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "0号胶囊",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "犀牛液",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "G点液",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "听话水",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "乖乖水",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "迷药",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "迷奸粉",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "迷魂药",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "神仙水",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "聪明药",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "止咳水",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "叶子烟",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "嗨药",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "溜冰",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "打气",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "笑气",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "飞行员",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "呼叶子",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "埋包",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "肉毒",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "麻古",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "麻果",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "古柯叶",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "麦角酸",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "LSD",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "邮票毒品",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "开心水",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "神仙水",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "红冰",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "一号",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "二号",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "三号",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "四号",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "白粉",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "大烟",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "黄皮",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "土制海洛因",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "安眠酮",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "佛得",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "三唑仑",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "蒙汗药",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "氟硝西泮",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "地西泮",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "氯硝西泮",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "艾司唑仑",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "佐匹克隆",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "曲马多",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "杜冷丁",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "盐酸二氢埃托啡",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "咖啡因",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "安纳咖",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "麻黄素",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "麻黄碱",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "伪麻黄碱",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "羟亚胺",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "邻酮",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "易制毒化学品",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "制毒原料",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "反应釜",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "结晶",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "提纯",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "洗货",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "试货",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "走板",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "烫吸",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "鼻吸",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "静脉注射",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "溜冰壶",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "冰壶",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "锡纸",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "针筒",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "注射器",
+    "category": "违法相关：毒品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "洗钱",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "黑钱",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "走私",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "枪支",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "军火",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "假币",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "伪钞",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "仿真枪",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "管制刀具",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "弩",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "气枪",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "猎枪",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "弹药",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "雷管",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "导火索",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "手雷",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "炸药",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "防身喷雾",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "电击棍",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "电击枪",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "土枪",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "火药",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "雷汞",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "黑火药",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "硝酸铵",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "发令枪",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "钢珠枪",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "BB弹",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "防毒面具",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "防弹衣",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "弓箭",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "复合弓",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "反曲弓",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "吹箭",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "弹弓",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "钢珠",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "甩棍",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "伸缩棍",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "警用器材",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "警服",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "警徽",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "手铐",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "脚镣",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "指虎",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "蝴蝶刀",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "弹簧刀",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "三棱刺",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "军刺",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "刺刀",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "开山刀",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "西瓜刀",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "砍刀",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "武士刀",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "唐刀",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "汉剑",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "枪管",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "枪栓",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "枪托",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "瞄准镜",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "消音器",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "消声器",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "子弹",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "弹壳",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "弹头",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "底火",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "发射药",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "无烟火药",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "黑市",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "地下兵工厂",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "改枪",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "造枪",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "3D打印枪",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "燃烧瓶",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "汽油弹",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "莫洛托夫鸡尾酒",
+    "category": "违法相关：枪支/违禁品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "传销",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "诈骗",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "骗钱",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "杀猪盘",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "网络诈骗",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "电信诈骗",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "刷单返利",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "虚假投资",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "庞氏骗局",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "跑分",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "洗币",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "四件套",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "银行卡四件套",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "身份证四件套",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "V号",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "实名微信号",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "抗封",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "防封",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "强开",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "强提",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "贷款黑户",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "信用卡提现",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "花呗套现",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "白条套现",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "代办信用卡",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "社工库",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "查档",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "全户",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "查住宿",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "查轨迹",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "手机定位",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "拦截马",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "盗刷",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "伪卡",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "侧录器",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "短信嗅探",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "接码平台",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "验证码破解",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "数据清洗",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "卡商",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "号商",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "羊毛党",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "撸口子",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "网贷黑名单",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "免签支付",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "跑分平台",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "USDT跑分",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "代收代付",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "黑金",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "洗黑钱",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "地下钱庄",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "对敲",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "车队",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "料商",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "CVV料",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "轨道料",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "猫池",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "卡池",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "GOIP",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "多卡宝",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "络漫宝",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "群控",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "云控",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "群控软件",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "自动脚本",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "引流工作室",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "吸粉",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "加粉",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "大区",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "话务员",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "键盘手",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "车手",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "卡佬",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "通道",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "码商",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "U商",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "承兑商",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "担保交易",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "公群",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "押金",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "上课",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "开课",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "退款诈骗",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "理赔诈骗",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "注销校园贷",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "征信修复",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "消除不良记录",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "解冻费",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "工本费",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "保证金",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "流水不足",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "安全账户",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "屏幕共享",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "刷单员",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "点赞员",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "试衣员",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "手工活",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "打字员",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "寄拍",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "公检法",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "通缉令",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "逮捕令",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "资金核查",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "网店代运营",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "高薪招聘",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "出国务工",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "东南亚高薪",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "缅北",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "金三角",
+    "category": "欺诈/黑产相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "原始股",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "股权投资",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "消费返利",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "互助盘",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "拆分盘",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "分红盘",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "养老投资",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "众筹拍",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "虚拟货币",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "空气币",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "传销币",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "拉人头",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "挖矿",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "矿机",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "比特币骗局",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "区块链诈骗",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "外汇黑平台",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "贵金属黑平台",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "原油期货",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "现货白银",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "微交易",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "二元期权",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "内幕消息",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "老鼠仓",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "荐股",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "牛股",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "涨停板",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "解套",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "代客理财",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "保本保息",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "高收益",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "日化收益",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "月化收益",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "无风险投资",
+    "category": "金融诈骗/非法集资",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "DDoS",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "CC攻击",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "肉鸡",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "抓鸡",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "挂马",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "提权",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "脱库",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "爆破",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "免杀",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "远控",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "木马",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "病毒",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "勒索软件",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "挖矿木马",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "WebShell",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "SQL注入",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "XSS攻击",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "炸群",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "呼死你",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "短信轰炸机",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "黑客接单",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "渗透教程",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "攻击网站",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "0day",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "漏洞利用",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "拖库",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "撞库",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "洗库",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "社工攻击",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "钓鱼网站",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "钓鱼邮件",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "键盘记录",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "屏幕监控",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "黑产工具",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "黑客工具",
+    "category": "网络安全/黑客攻击",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "色情",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "淫秽",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "卖淫",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "嫖娼",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "招嫖",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "援交",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "约炮",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "一夜情",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "裸聊",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "黄片",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "AV",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "成人视频",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "性服务",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "上门服务",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "偷拍",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "走光",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "露点",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "激情",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "骚麦",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "幼女",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "萝莉",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "正太",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "恋童",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "三级片",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "A片",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "SM",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "调教",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "主奴",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "M属",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "S属",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "福利姬",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "原味",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "丝足",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "丝袜会所",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "楼凤",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "兼职妹",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "包养",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "肉便器",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "毒龙",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "冰火",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "漫游",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "毒龙钻",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "69式",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "颜射",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "全套服务",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "半套",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "打飞机",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "波推",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "臀推",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "莞式服务",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "裸贷",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "肉偿",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "文爱",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "磕炮",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "语爱",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "电爱",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "福利群",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "车牌号",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "看片",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "做爱",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "打炮",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "乳交",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "口交",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "深喉",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "内射",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "中出",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "强制高潮",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "群交",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "乱伦",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "兽交",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "人兽",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "强奸",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "迷奸",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "轮奸",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "各种门",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "艳照",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "不雅视频",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "私拍",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "约啪",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "炮友",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "兼职上门",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "品茶",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "喝茶",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "修车",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "大保健",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "一条龙",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "大秀",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "裸播",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "黄播",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "涉黄直播",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "房事直播",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "一对一视频",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "大尺度",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "无码",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "步兵",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "骑兵",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "高清无码",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "91大神",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "探花",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "国产自拍",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "偷拍自拍",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "厕拍",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "裙底偷拍",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "酒店偷拍",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "针孔偷拍",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "换脸",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "AI换脸",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "明星换脸",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "深度伪造",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "裸照",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "私房照",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "大尺度照片",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "原味内衣",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "原味丝袜",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "原味内裤",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "圣水",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "黄金雨",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "捆绑",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "束缚",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "窒息",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "虐待",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "抖M",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "抖S",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "奴隶",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "狗奴",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "绿帽",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "绿奴",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "换妻",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "3P",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "4P",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "多人运动",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "群P",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "银趴",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "里番",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "本子",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "工口",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "绅士",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "JK援交",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "萝莉资源",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "LF",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "QM",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "兼职",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "约茶",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "炮机",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "手冲",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "撸管",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "飞机杯",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "倒模",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "充气娃娃",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "实体娃娃",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "名器",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "潮吹",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "喷水",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "白虎",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "馒头逼",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "蝴蝶逼",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "鲍鱼",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "黑木耳",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "紫木耳",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "粉木耳",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "逼水",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "淫水",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "骚水",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "淫叫",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "呻吟",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "高潮",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "绝顶升天",
+    "category": "色情相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "刷粉",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "刷赞",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "刷阅读量",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "刷播放量",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "僵尸粉",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "买粉",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "卖粉",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "引流脚本",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "群发软件",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "爆粉",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "无限加群",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "暴力引流",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "微商软件",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "自动加人",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "自动群发",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "微信营销",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "裂变",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "精准粉",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "活跃粉",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "权重号",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "协议号",
+    "category": "恶意营销/流量造假",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "外挂",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "辅助",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "脚本",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "透视",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "自瞄",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "锁头",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "无后座",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "穿墙",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "飞天",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "加速器",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "改包",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "封包",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "解封",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "防封",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "过检测",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "全图",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "除草",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "去树",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "自动打怪",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "自动寻路",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "游戏代练",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "代打",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "刷金",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "刷币",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "工作室",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "黑号",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "扫号",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "游戏币交易",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "私服",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "GM工具",
+    "category": "游戏黑产/外挂",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "杀人",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "暗杀",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "行凶",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "投毒",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "爆炸",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "炸弹",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "枪击",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "砍人",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "捅人",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "绑架",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "勒索",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "雇凶",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "灭口",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "报复社会",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "恐怖分子",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "圣战",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "暴动",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "暴乱",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "碎尸",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "分尸",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "斩首",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "各种死法",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "ISIS",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "基地组织",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "东突",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "塔利班",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "本拉登",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "人肉炸弹",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "自杀式袭击",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "甚至是",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "虐杀",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "虐猫",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "虐狗",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "血腥",
+    "category": "暴力/恐怖相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "独裁",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "专制",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "暴政",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "颜色革命",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "反党",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "反政府",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "游行",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "示威",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "罢工",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "罢课",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "请愿",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "上访",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "六四",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "八九六四",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "民运",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "藏独",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "台独",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "港独",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "分裂国家",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "颠覆政权",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "法轮功",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "全能神",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "邪教",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "九评",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "退党",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "政治谣言",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "丑化领导人",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "疆独",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "东突厥斯坦",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "世维会",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "蒙独",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "支联会",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "零八宪章",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "新公民运动",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "门徒会",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "三赎基督",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "呼喊派",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "血水圣灵",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "观音法门",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "灵灵教",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "天安门母亲",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "茉莉花革命",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "709律师",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "白纸运动",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "四通桥",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "光复香港",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "时代革命",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "五大诉求",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "占中",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "雨伞运动",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "反送中",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "勇武派",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "黑暴",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "流亡政府",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "达赖",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "热比娅",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "郭文贵",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "爆料革命",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "郝海东",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "闫丽梦",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "大纪元",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "新唐人",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "希望之声",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "美国之音",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "自由亚洲",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "BBC中文",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "纽约时报中文",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "维尼",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "包子",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "长者",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "膜蛤",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "共匪",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "赤匪",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "大撒币",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "大外宣",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "翠",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "祈翠",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "维尼熊",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "庆丰",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "总加速师",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "扛麦郎",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "宽衣",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "通商宽衣",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "拉清单",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "赵家人",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "赵国",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "你国",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "厉害了我的国",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "战狼",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "小粉红",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "五毛",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "美分",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "公知",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "带路党",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "推墙",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "洗脑",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "维稳",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "河蟹",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "查水表",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "跨省",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "喝茶",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "被失踪",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "软禁",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "非法集会",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "散步",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "举牌",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "绝食",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "自焚",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "群体性事件",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "维权律师",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "地下教会",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "家庭教会",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "宗教渗透",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "境外势力",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "反华势力",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "辱华",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "精日",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "恨国党",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "殖人",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "润学",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "走线",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "移民",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "政治庇护",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "人权",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "宪政",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "普世价值",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "新闻自由",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "言论自由",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "网络封锁",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "防火墙",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "GFW",
+    "category": "涉政/反动相关",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "自杀",
+    "category": "自我伤害",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "自残",
+    "category": "自我伤害",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "割腕",
+    "category": "自我伤害",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "跳楼",
+    "category": "自我伤害",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "烧炭",
+    "category": "自我伤害",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "安乐死",
+    "category": "自我伤害",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "轻生",
+    "category": "自我伤害",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "喝农药",
+    "category": "自我伤害",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "上吊",
+    "category": "自我伤害",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "各种死法",
+    "category": "自我伤害",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "蓝鲸游戏",
+    "category": "自我伤害",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "约死",
+    "category": "自我伤害",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "厌世",
+    "category": "自我伤害",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "想死",
+    "category": "自我伤害",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "不想活了",
+    "category": "自我伤害",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "百草枯",
+    "category": "自我伤害",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "敌敌畏",
+    "category": "自我伤害",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "废物",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "垃圾人",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "人渣",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "畜生",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "杂种",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "贱人",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "婊子",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "妓女",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "死全家",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "滚蛋",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "去死",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "弱智",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "智障",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "脑残",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "傻逼",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "妈的",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "狗日",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "尼格",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "黑鬼",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "支那",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "小日本",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "棒子",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "阿三",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "白皮猪",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "黄皮猴子",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "台巴子",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "港灿",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "穷逼",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "屌丝",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "直男癌",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "女拳",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "田园女权",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "绿茶婊",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "心机婊",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "白莲花",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "圣母婊",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "键盘侠",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "喷子",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "杠精",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "脑瘫",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "智硬",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "文盲",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "巨婴",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "孤儿",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "死妈",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "nmsl",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "cnm",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "mlgb",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "wcnm",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "nt",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "sb",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "fw",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "nc",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "阴阳人",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "死太监",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "娘炮",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "二椅子",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "老不死",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "老东西",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "棺材瓤子",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "绝户",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "克夫",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "扫把星",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "赔钱货",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "重男轻女",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "拜金女",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "扶弟魔",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "普信男",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "下头男",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "蝈蝻",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "婚驴",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "胎毒",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "幕刃",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "公狗",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "母狗",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "公交车",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "烂裤裆",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "破鞋",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "二手货",
+    "category": "侮辱歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "人肉搜索",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "网络暴力",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "网暴",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "开盒",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "曝光隐私",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "泄露个人信息",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "骚扰电话",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "定位软件",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "监听软件",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "私家侦探",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "调查婚外情",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "查开房记录",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "查通话记录",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "查聊天记录",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "手机定位找人",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "微信定位",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "QQ定位",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "手机号定位",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "身份证查询",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "户籍查询",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "全家户籍",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "车牌查询",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "车主信息",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "快递查询",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "外卖查询",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "地址查询",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "单位查询",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "学籍查询",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "婚姻查询",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "开房记录查询",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "同住人查询",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "轨迹查询",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "手机监控",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "微信监控",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "QQ监控",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "聊天记录恢复",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "数据恢复",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "远程定位",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "远程监听",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "远程监控",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "定位芯片",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "定位器",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "跟踪器",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "防身定位",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "儿童定位",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "老人定位",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "宠物定位",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "车辆定位",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "汽车定位",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "摩托车定位",
+    "category": "骚扰/侵犯隐私",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "针孔摄像头",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "微型摄像头",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "窃听器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "监听器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "跟踪器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "屏蔽器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "信号干扰器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "伪基站",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "干扰器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "解码器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "开锁工具",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "万能钥匙",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "透视眼镜",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "透视仪",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "变声器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "改号软件",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "赌博作弊器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "考试作弊器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "隐形耳机",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "米粒耳机",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "橡皮擦接收器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "手表接收器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "眼镜接收器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "钱包接收器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "打火机摄像机",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "手表摄像机",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "眼镜摄像机",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "纽扣摄像机",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "插座摄像机",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "充电宝摄像机",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "烟雾报警器摄像机",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "路由器摄像机",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "排插摄像机",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "灯泡摄像机",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "挂钩摄像机",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "闹钟摄像机",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "蓝牙拦截器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "WiFi破解器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "车钥匙解码器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "门禁卡复制器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "电梯卡复制器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "IC卡复制器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "ID卡复制器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "NFC读写器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "磁条卡读写器",
+    "category": "违禁品/管制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "象牙",
+    "category": "野生动物/违禁制品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "犀牛角",
+    "category": "野生动物/违禁制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "虎骨",
+    "category": "野生动物/违禁制品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "虎皮",
+    "category": "野生动物/违禁制品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "熊胆",
+    "category": "野生动物/违禁制品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "穿山甲",
+    "category": "野生动物/违禁制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "鳞片",
+    "category": "野生动物/违禁制品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "玳瑁",
+    "category": "野生动物/违禁制品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "盔犀鸟",
+    "category": "野生动物/违禁制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "鹤顶红",
+    "category": "野生动物/违禁制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "羚羊角",
+    "category": "野生动物/违禁制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "麝香",
+    "category": "野生动物/违禁制品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "鱼翅",
+    "category": "野生动物/违禁制品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "燕窝",
+    "category": "野生动物/违禁制品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "野生动物",
+    "category": "野生动物/违禁制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "野味",
+    "category": "野生动物/违禁制品",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "捕兽夹",
+    "category": "野生动物/违禁制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "电鱼机",
+    "category": "野生动物/违禁制品",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "代孕",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "器官买卖",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "卖肾",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "壮阳药",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "春药",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "催情水",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "人流",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "堕胎",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "收药",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "医保套现",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "假药",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "高仿药",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "迷幻药",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "精神药品",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "处方药交易",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "鉴定胎儿性别",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "包生男孩",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "代体检",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "乙肝代检",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "入学代检",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "入职代检",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "出国代检",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "代孕妈妈",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "捐卵",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "卖卵",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "试管婴儿包成功",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "包生双胞胎",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "包生龙凤胎",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "供卵",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "借腹生子",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "黑诊所",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "无证行医",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "非法行医",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "整容失败",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "微整形",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "玻尿酸",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "肉毒素",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "美白针",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "瘦脸针",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "溶脂针",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "水光针",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "线雕",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "隆胸",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "隆鼻",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "双眼皮",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "私密整形",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "处女膜修复",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "阴茎增大",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "阴茎延长",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "早泄治疗",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "阳痿治疗",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "性病治疗",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "梅毒",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "淋病",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "尖锐湿疣",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "艾滋病",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "HIV",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "阻断药",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "伟哥",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "万艾可",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "希爱力",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "必利劲",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "延时喷剂",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "神油",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "增大膏",
+    "category": "医疗/药品违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "代考",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "替考",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "助考",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "枪手",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "雅思面授",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "托福面授",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "改分",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "办证",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "刻章",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "假证",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "假发票",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "假学历",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "毕业证办理",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "学位证办理",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "身份证购买",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "户口办理",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "论文代写",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "代发论文",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "职称代评",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "档案修改",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "四六级答案",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "考研答案",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "公务员考试答案",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "司法考试答案",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "注会答案",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "建造师答案",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "医师资格答案",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "教师资格答案",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "高考答案",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "中考答案",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "成考答案",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "自考答案",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "专升本答案",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "普通话答案",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "计算机二级答案",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "英语AB级答案",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "期末考试答案",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "网课代刷",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "网课代看",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "作业代写",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "论文降重",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "查重软件",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "学术不端",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "学历认证",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "留服认证",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "WES认证",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "海牙认证",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "成绩单修改",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "流水修改",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "征信修改",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "银行流水制作",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "工作证明制作",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "收入证明制作",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "离职证明制作",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "实习证明制作",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "病假条制作",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "医院证明制作",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "诊断书制作",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "住院证明制作",
+    "category": "作弊/造假",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "黑中介",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "高利贷",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "套路贷",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "催收",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "暴力催收",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "代开发票",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "翻墙",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "VPN",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "梯子",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "科学上网",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "翻墙软件",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "SSR",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "V2Ray",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "Trojan",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "节点",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "机场",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "加速器",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "暗网",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "洋葱路由",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "Tor",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "比特币",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "以太坊",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "USDT",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "泰达币",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "收卡",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "收盾",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "收V",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "收号",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "私彩",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "黑彩",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "博彩推广",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "网赌推广",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "色情推广",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "色粉",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "网赚",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "兼职",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "刷单",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "手工活",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "打字员",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "挂机赚钱",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "看广告赚钱",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "投票赚钱",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "问卷调查",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "试玩赚钱",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "转发赚钱",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "阅读赚钱",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "点赞赚钱",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "关注赚钱",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "加粉赚钱",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "拉人赚钱",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "代理赚钱",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "加盟赚钱",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "投资理财",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "股票配资",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "期货配资",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "外汇配资",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "黄金配资",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "原油配资",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "贵金属配资",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "配资平台",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "杠杆炒股",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "场外配资",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "非法荐股",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "杀猪盘",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "庞氏骗局",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "传销组织",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "老赖",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "失信被执行人",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "限制高消费",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "法院传票",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "律师函",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "催收短信",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "爆通讯录",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "P图催收",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "灵堂催收",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "送花圈",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "喷油漆",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "堵锁眼",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "骚扰家人",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "恐吓威胁",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "软暴力",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "黑社会",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "保护伞",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "涉黑涉恶",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "扫黑除恶",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "举报信",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "上访信",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "检举信",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "投诉信",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "维权群",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "闹事群",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "罢工群",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "游行群",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "示威群",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "请愿群",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "绝食群",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "自焚群",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "跳楼群",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "自杀群",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "约死群",
+    "category": "其他违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "脑残粉",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "nc粉",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "毒唯",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "私生饭",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "披皮黑",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "黑粉",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "职业黑",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "营销号",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "水军",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "拉踩",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "洗地",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "控评",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "屠版",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "爆破",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "人肉",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "开盒",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "挂人",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "P遗照",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "诅咒",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "撕逼",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "互撕",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "饭圈",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "对家",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "正主",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "糊咖",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "塌房",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "选秀",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "打投",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "集资",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "应援",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "做数据",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "刷榜",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "买热搜",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "撤热搜",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "偷榜",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "锁场",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "倒奶",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "代拍",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "跟车",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "追车",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "蹲酒店",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "骚扰艺人",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "买卖行程",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "航班信息",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "身份证号",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "手机号",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "家庭住址",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "扒皮",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "黑料",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "造谣",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "传谣",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "网络暴力",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "按头",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "扣帽子",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "带节奏",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "引战",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "yygq",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "阴阳怪气",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "无脑吹",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "无脑黑",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "键盘侠",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "喷子",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "杠精",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "圣母",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "白莲花",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "绿茶",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "心机",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "戏精",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "炒作",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "捆绑",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "贴金",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "碰瓷",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "蹭热度",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "吸血",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "提纯",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "虐粉",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "固粉",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "脱粉",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "回踩",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "爬墙",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "墙头",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "本命",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "爱豆",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "偶像",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "流量",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "小鲜肉",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "娘炮",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "整容",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "各种黑称",
+    "category": "饭圈互撕/娱乐恶俗",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "回扣",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "好处费",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "辛苦费",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "茶水费",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "介绍费",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "点数",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "返点",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "提成",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "佣金",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "干股",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "分红",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "贿赂",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "行贿",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "受贿",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "贪污",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "挪用公款",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "做假账",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "偷税",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "漏税",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "避税",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "洗钱",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "黑金",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "小金库",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "阴阳合同",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "虚开发票",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "买卖发票",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "虚报",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "谎报",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "虚假报销",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "公款吃喝",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "公款旅游",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "公款消费",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "权色交易",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "性贿赂",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "潜规则",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "职场性骚扰",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "各种门",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "萝卜招聘",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "内定",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "走后门",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "关系户",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "吃空饷",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "泄露商业机密",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "出卖公司利益",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "飞单",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "私单",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "兼职",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "接私活",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "利益输送",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "关联交易",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "围标",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "串标",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "陪标",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "搞定领导",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "搞定客户",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "送礼",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "送钱",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "送卡",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "送房",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "送车",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "送女人",
+    "category": "职场违规/商业腐败",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "收保护费",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "勒索钱财",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "强行索要",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "围殴",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "群殴",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "单挑",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "约架",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "打群架",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "扒衣服",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "拍裸照",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "侮辱",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "羞辱",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "下跪",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "钻裤裆",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "喝尿",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "吃屎",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "扇耳光",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "踢打",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "殴打",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "各种体罚",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "孤立",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "排挤",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "造谣中伤",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "起外号",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "各种辱骂",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "校园贷",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "裸贷",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "佳丽贷",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "培训贷",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "美容贷",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "创业贷",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "求职贷",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "高利贷",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "套路贷",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "暴力催收",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "各种帮派",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "认大哥",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "拜把子",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "结拜",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "混社会",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "古惑仔",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "黑社会",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "不良少年",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "失足少女",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "早恋",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "堕胎",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "离家出走",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "逃学",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "厌学",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "网瘾",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "各种违规违纪",
+    "category": "校园霸凌/青少年不良",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "杀猪盘",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "杀鱼盘",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "杀鸟盘",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "资金盘",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "庞氏骗局",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "传销币",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "空气币",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "山寨币",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "模式币",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "CX币",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "百倍币",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "千倍币",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "万倍币",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "原始股",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "私募",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "ICO",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "IEO",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "IDO",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "DeFi骗局",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "NFT骗局",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "元宇宙骗局",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "GameFi骗局",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "Web3骗局",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "DAO骗局",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "智能合约漏洞",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "貔貅盘",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "土狗盘",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "跑路",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "撤池子",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "砸盘",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "割韭菜",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "接盘侠",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "维权",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "带单",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "喊单",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "内幕",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "老鼠仓",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "交易所跑路",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "钱包被盗",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "助记词",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "私钥",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "授权",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "多签",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "假钱包",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "假交易所",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "假币",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "假U",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "黑U",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "洗U",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "跑分",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "承兑",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "OTC",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "冻卡",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "解冻",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "搬砖",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "套利",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "量化",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "高频",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "对冲",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "杠杆",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "合约",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "爆仓",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "穿仓",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "插针",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "拔网线",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "定点爆破",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "各种骗局",
+    "category": "加密货币/区块链骗局",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "算命",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "看相",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "摸骨",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "测字",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "八字",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "生辰八字",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "改运",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "转运",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "种生基",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "做法事",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "驱鬼",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "捉鬼",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "降头",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "下蛊",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "情降",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "和合术",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "回心转意",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "超度",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "婴灵",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "堕胎婴灵",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "风水",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "看风水",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "寻龙点穴",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "阴宅",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "阳宅",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "凶宅",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "符咒",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "护身符",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "开光",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "加持",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "请神",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "跳大神",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "出马仙",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "保家仙",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "附体",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "通灵",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "前世今生",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "冤亲债主",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "还阴债",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "补财库",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "开天眼",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "天眼通",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "特异功能",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "气功",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "大师",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "活佛",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "仁波切",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "神医",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "神药",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "包治百病",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "消灾",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "避祸",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "血光之灾",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "破解",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "化解",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "灵符",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "神像",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "佛像",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "舍利子",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "天珠",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "法器",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "各种迷信活动",
+    "category": "封建迷信/算命诈骗",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "香烟",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "卷烟",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "烟草",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "中华",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "茅台",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "芙蓉王",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "黄鹤楼",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "利群",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "玉溪",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "云烟",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "苏烟",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "熊猫",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "南京",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "荷花",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "各种烟",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "电子烟",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "烟弹",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "烟油",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "雾化器",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "主机",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "悦刻",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "RELX",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "柚子",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "YOOZ",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "魔笛",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "MOTI",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "小野",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "vvild",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "福禄",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "FLOW",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "喜雾",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "IQOS",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "万宝路烟弹",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "爆珠",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "水果味",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "薄荷味",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "上头烟",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "飞行电子烟",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "大麻电子烟",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "合成大麻素",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "烟草专卖",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "免税烟",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "走私烟",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "外烟",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "出口烟",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "专供",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "特供",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "非卖品",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "试用装",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "各种违规烟草",
+    "category": "烟草/电子烟违规",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "扑街",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "顶你个肺",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "丢雷楼某",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "含家铲",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "死扑街",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "烂坦",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "废柴",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "痴线",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "茂利",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "粉肠",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "仆街",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "冚家铲",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "叼你老母",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "屌你老母",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "屌你",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "这里省略一万字",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "巴子",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "硬盘",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "九头鸟",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "偷井盖",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "荷兰猪",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "瑞典人",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "地域黑",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "地图炮",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "捞翔",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "老坦儿",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "侉子",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "蛮子",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "南蛮",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "北侉",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "港独废青",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "废青",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "蟑螂",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "黄尸",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "黑暴",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "曱甴",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "湾湾",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "呆逼",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "绿蛙",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "井底之蛙",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "茶叶蛋",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "涪陵榨菜",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "大陆妹",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "北姑",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "蝗虫",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "强国人",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "支那猪",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "支那狗",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "各种地域歧视",
+    "category": "方言辱骂/地域歧视",
+    "level": "REVIEW",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "蛋炒饭",
+    "category": "历史虚无/恶意歪曲",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "挂炉烤鸭",
+    "category": "历史虚无/恶意歪曲",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "烤苹果皮",
+    "category": "历史虚无/恶意歪曲",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "沙雕连",
+    "category": "历史虚无/恶意歪曲",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "冰雕连",
+    "category": "历史虚无/恶意歪曲",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "精日",
+    "category": "历史虚无/恶意歪曲",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "精神日本人",
+    "category": "历史虚无/恶意歪曲",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "日本爸爸",
+    "category": "历史虚无/恶意歪曲",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "美国爸爸",
+    "category": "历史虚无/恶意歪曲",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "美爹",
+    "category": "历史虚无/恶意歪曲",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "日爹",
+    "category": "历史虚无/恶意歪曲",
+    "level": "BLOCK",
+    "matchType": "EXACT"
+  },
+  {
+    "word": "各种精日言论",
+    "category": "历史虚无/恶意歪曲",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "侮辱英烈",
+    "category": "历史虚无/恶意歪曲",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "诋毁英雄",
+    "category": "历史虚无/恶意歪曲",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "歪曲历史",
+    "category": "历史虚无/恶意歪曲",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "抹黑领袖",
+    "category": "历史虚无/恶意歪曲",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  },
+  {
+    "word": "各种反动言论",
+    "category": "历史虚无/恶意歪曲",
+    "level": "BLOCK",
+    "matchType": "FUZZY"
+  }
+]

@@ -122,11 +122,29 @@ class IMConversationService {
       return timeB - timeA;
     });
 
-    if (allConversations.length === 0) {
+    // 去重：私聊按对方用户ID去重，群聊按群ID去重（保留最新的）
+    const seen = new Set<string>();
+    const uniqueConversations = allConversations.filter((conv) => {
+      let key: string;
+      if (conv.type === ConversationType.PRIVATE) {
+        // 计算对方用户ID
+        const targetUserId = conv.userId === userId ? conv.friendId : conv.userId;
+        key = `private:${targetUserId}`;
+      } else {
+        key = `group:${conv.groupId}`;
+      }
+      if (seen.has(key)) {
+        return false;
+      }
+      seen.add(key);
+      return true;
+    });
+
+    if (uniqueConversations.length === 0) {
       return [];
     }
 
-    const conversationIds = allConversations.map((c) => c.id);
+    const conversationIds = uniqueConversations.map((c) => c.id);
 
     // 批量获取已读记录
     const readRecords = await MessageRead.findAll({
@@ -154,7 +172,7 @@ class IMConversationService {
     const targetUserIds = new Set<string>();
     const targetGroupIds = new Set<string>();
 
-    for (const conv of allConversations) {
+    for (const conv of uniqueConversations) {
       if (conv.type === ConversationType.PRIVATE) {
         const targetUserId = conv.userId === userId ? conv.friendId : conv.userId;
         if (targetUserId) targetUserIds.add(targetUserId);
@@ -202,7 +220,7 @@ class IMConversationService {
     // 构建返回数据
     const result: FlatConversation[] = [];
 
-    for (const conv of allConversations) {
+    for (const conv of uniqueConversations) {
       // 计算 targetUserId（私聊时）
       const targetUserId =
         conv.type === ConversationType.PRIVATE

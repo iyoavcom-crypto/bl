@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>注册登录演示</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+    }
+
+    .auth-card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+    }
+
+    .tabs {
+      display: flex;
+      background: #f8f9fa;
+    }
+
+    .tab {
+      flex: 1;
+      padding: 16px;
+      text-align: center;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 500;
+      color: #6c757d;
+      border: none;
+      background: transparent;
+      transition: all 0.3s ease;
+      border-bottom: 3px solid transparent;
+    }
+
+    .tab:hover {
+      color: #495057;
+      background: #e9ecef;
+    }
+
+    .tab.active {
+      color: #667eea;
+      background: #fff;
+      border-bottom-color: #667eea;
+    }
+
+    .form-container {
+      padding: 32px;
+    }
+
+    .form {
+      display: none;
+    }
+
+    .form.active {
+      display: block;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .form-title {
+      font-size: 24px;
+      font-weight: 600;
+      color: #212529;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+
+    .form-subtitle {
+      font-size: 14px;
+      color: #6c757d;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-label {
+      display: block;
+      font-size: 14px;
+      font-weight: 500;
+      color: #495057;
+      margin-bottom: 8px;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 14px 16px;
+      font-size: 15px;
+      border: 2px solid #e9ecef;
+      border-radius: 10px;
+      outline: none;
+      transition: all 0.3s ease;
+    }
+
+    .form-input:focus {
+      border-color: #667eea;
+      box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+    }
+
+    .form-input::placeholder {
+      color: #adb5bd;
+    }
+
+    .form-input.error {
+      border-color: #dc3545;
+      box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.1);
+    }
+
+    .error-text {
+      font-size: 12px;
+      color: #dc3545;
+      margin-top: 6px;
+      display: none;
+    }
+
+    .error-text.show {
+      display: block;
+    }
+
+    .submit-btn {
+      width: 100%;
+      padding: 14px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-top: 8px;
+    }
+
+    .submit-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+    }
+
+    .submit-btn:active {
+      transform: translateY(0);
+    }
+
+    .submit-btn:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .submit-btn.loading {
+      position: relative;
+      color: transparent;
+    }
+
+    .submit-btn.loading::after {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: 50%;
+      left: 50%;
+      margin-left: -10px;
+      margin-top: -10px;
+      border: 2px solid #fff;
+      border-top-color: transparent;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .divider {
+      display: flex;
+      align-items: center;
+      margin: 24px 0;
+      color: #adb5bd;
+      font-size: 13px;
+    }
+
+    .divider::before,
+    .divider::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: #e9ecef;
+    }
+
+    .divider span {
+      padding: 0 16px;
+    }
+
+    .social-login {
+      display: flex;
+      gap: 12px;
+    }
+
+    .social-btn {
+      flex: 1;
+      padding: 12px;
+      border: 2px solid #e9ecef;
+      border-radius: 10px;
+      background: #fff;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-size: 14px;
+      color: #495057;
+    }
+
+    .social-btn:hover {
+      border-color: #667eea;
+      background: #f8f9ff;
+    }
+
+    /* Toast 通知 */
+    .toast {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 16px 24px;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 500;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      transform: translateX(120%);
+      transition: transform 0.3s ease;
+      z-index: 1000;
+    }
+
+    .toast.show {
+      transform: translateX(0);
+    }
+
+    .toast.success {
+      background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    }
+
+    .toast.error {
+      background: linear-gradient(135deg, #dc3545 0%, #fd7e14 100%);
+    }
+
+    /* 成功页面 */
+    .success-page {
+      display: none;
+      text-align: center;
+      padding: 48px 32px;
+    }
+
+    .success-page.show {
+      display: block;
+      animation: fadeIn 0.5s ease;
+    }
+
+    .success-icon {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 24px;
+      animation: scaleIn 0.5s ease;
+    }
+
+    @keyframes scaleIn {
+      from { transform: scale(0); }
+      to { transform: scale(1); }
+    }
+
+    .success-icon svg {
+      width: 40px;
+      height: 40px;
+      fill: #fff;
+    }
+
+    .success-title {
+      font-size: 24px;
+      font-weight: 600;
+      color: #212529;
+      margin-bottom: 12px;
+    }
+
+    .success-message {
+      font-size: 14px;
+      color: #6c757d;
+      margin-bottom: 32px;
+    }
+
+    .user-info {
+      background: #f8f9fa;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 24px;
+      text-align: left;
+    }
+
+    .user-info-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #e9ecef;
+    }
+
+    .user-info-item:last-child {
+      border-bottom: none;
+    }
+
+    .user-info-label {
+      color: #6c757d;
+      font-size: 14px;
+    }
+
+    .user-info-value {
+      color: #212529;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .logout-btn {
+      padding: 12px 32px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #667eea;
+      background: #fff;
+      border: 2px solid #667eea;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .logout-btn:hover {
+      background: #667eea;
+      color: #fff;
+    }
+
+    /* 响应式 */
+    @media (max-width: 480px) {
+      .form-container {
+        padding: 24px 20px;
+      }
+
+      .social-login {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="auth-card">
+      <!-- 标签页 -->
+      <div class="tabs" id="tabs">
+        <button class="tab active" data-tab="login">登录</button>
+        <button class="tab" data-tab="register">注册</button>
+      </div>
+
+      <div class="form-container" id="formContainer">
+        <!-- 登录表单 -->
+        <form class="form active" id="loginForm">
+          <h2 class="form-title">欢迎回来</h2>
+          <p class="form-subtitle">登录您的账户继续使用</p>
+
+          <div class="form-group">
+            <label class="form-label">手机号</label>
+            <input type="tel" class="form-input" id="loginPhone" placeholder="请输入手机号" maxlength="11">
+            <p class="error-text" id="loginPhoneError">请输入正确的手机号</p>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">密码</label>
+            <input type="password" class="form-input" id="loginPassword" placeholder="请输入密码">
+            <p class="error-text" id="loginPasswordError">密码不能为空</p>
+          </div>
+
+          <button type="submit" class="submit-btn">登录</button>
+
+          <div class="divider"><span>或</span></div>
+
+          <div class="social-login">
+            <button type="button" class="social-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="#07C160">
+                <path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 0 1 .213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.32.32 0 0 0 .167-.054l1.903-1.114a.864.864 0 0 1 .717-.098 10.16 10.16 0 0 0 2.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-4.972 1.932-6.446 1.703-1.415 3.882-1.98 5.853-1.838-.576-3.583-4.196-6.348-8.596-6.348zM5.785 5.991c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178A1.17 1.17 0 0 1 4.623 7.17c0-.651.52-1.18 1.162-1.18zm5.813 0c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178 1.17 1.17 0 0 1-1.162-1.178c0-.651.52-1.18 1.162-1.18zm5.34 2.867c-1.797-.052-3.746.512-5.28 1.786-1.72 1.428-2.687 3.72-1.78 6.22.942 2.453 3.666 4.229 6.884 4.229.826 0 1.622-.12 2.361-.336a.722.722 0 0 1 .598.082l1.584.926a.272.272 0 0 0 .14.047c.134 0 .24-.111.24-.247 0-.06-.023-.12-.038-.177l-.327-1.233a.49.49 0 0 1-.021-.133.49.49 0 0 1 .199-.39C23.215 18.153 24 16.645 24 14.999c0-3.39-3.094-6.084-6.061-6.14zm-2.573 2.873c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.97-.982zm4.844 0c.536 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.969-.982z"/>
+              </svg>
+              微信
+            </button>
+            <button type="button" class="social-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="#1DA1F2">
+                <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l.001.12c0 4.967-3.783 10.696-10.696 10.696-2.123 0-4.099-.622-5.762-1.69a7.546 7.546 0 0 0 5.565-1.556 3.765 3.765 0 0 1-3.514-2.613c.565.107 1.11.084 1.616-.067a3.763 3.763 0 0 1-3.016-3.687v-.117a3.74 3.74 0 0 0 1.702.47 3.762 3.762 0 0 1-1.164-5.024 10.683 10.683 0 0 0 7.756 3.932 3.763 3.763 0 0 1 6.41-3.43 7.532 7.532 0 0 0 2.388-.913 3.775 3.775 0 0 1-1.654 2.08 7.51 7.51 0 0 0 2.161-.593 7.636 7.636 0 0 1-1.793 1.392z"/>
+              </svg>
+              Twitter
+            </button>
+          </div>
+        </form>
+
+        <!-- 注册表单 -->
+        <form class="form" id="registerForm">
+          <h2 class="form-title">创建账户</h2>
+          <p class="form-subtitle">注册新账户开始体验</p>
+
+          <div class="form-group">
+            <label class="form-label">手机号</label>
+            <input type="tel" class="form-input" id="regPhone" placeholder="请输入手机号" maxlength="11">
+            <p class="error-text" id="regPhoneError">请输入正确的手机号</p>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">密码</label>
+            <input type="password" class="form-input" id="regPassword" placeholder="请输入密码（至少6位）">
+            <p class="error-text" id="regPasswordError">密码至少6位</p>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">二级密码</label>
+            <input type="password" class="form-input" id="regPin" placeholder="请输入6位数字二级密码" maxlength="6">
+            <p class="error-text" id="regPinError">二级密码必须是6位数字</p>
+          </div>
+
+          <button type="submit" class="submit-btn">注册</button>
+        </form>
+
+        <!-- 成功页面 -->
+        <div class="success-page" id="successPage">
+          <div class="success-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+            </svg>
+          </div>
+          <h2 class="success-title" id="successTitle">登录成功</h2>
+          <p class="success-message" id="successMessage">欢迎回来！</p>
+
+          <div class="user-info">
+            <div class="user-info-item">
+              <span class="user-info-label">手机号</span>
+              <span class="user-info-value" id="userPhone">-</span>
+            </div>
+            <div class="user-info-item">
+              <span class="user-info-label">用户ID</span>
+              <span class="user-info-value" id="userId">-</span>
+            </div>
+            <div class="user-info-item">
+              <span class="user-info-label">登录时间</span>
+              <span class="user-info-value" id="loginTime">-</span>
+            </div>
+          </div>
+
+          <button type="button" class="logout-btn" id="logoutBtn">退出登录</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast 通知 -->
+  <div class="toast" id="toast"></div>
+
+  <script>
+    // DOM 元素
+    const tabs = document.querySelectorAll('.tab');
+    const loginForm = document.getElementById('loginForm');
+    const registerForm = document.getElementById('registerForm');
+    const successPage = document.getElementById('successPage');
+    const formContainer = document.getElementById('formContainer');
+    const tabsEl = document.getElementById('tabs');
+    const toast = document.getElementById('toast');
+
+    // 登录表单元素
+    const loginPhone = document.getElementById('loginPhone');
+    const loginPassword = document.getElementById('loginPassword');
+    const loginPhoneError = document.getElementById('loginPhoneError');
+    const loginPasswordError = document.getElementById('loginPasswordError');
+
+    // 注册表单元素
+    const regPhone = document.getElementById('regPhone');
+    const regPassword = document.getElementById('regPassword');
+    const regPin = document.getElementById('regPin');
+    const regPhoneError = document.getElementById('regPhoneError');
+    const regPasswordError = document.getElementById('regPasswordError');
+    const regPinError = document.getElementById('regPinError');
+
+    // 成功页面元素
+    const successTitle = document.getElementById('successTitle');
+    const successMessage = document.getElementById('successMessage');
+    const userPhone = document.getElementById('userPhone');
+    const userId = document.getElementById('userId');
+    const loginTime = document.getElementById('loginTime');
+    const logoutBtn = document.getElementById('logoutBtn');
+
+    // 显示 Toast 通知
+    function showToast(message, type = 'success') {
+      toast.textContent = message;
+      toast.className = `toast ${type} show`;
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 3000);
+    }
+
+    // 验证手机号
+    function validatePhone(phone) {
+      return /^1[3-9]\d{9}$/.test(phone);
+    }
+
+    // 验证密码
+    function validatePassword(password) {
+      return password.length >= 6;
+    }
+
+    // 验证二级密码
+    function validatePin(pin) {
+      return /^\d{6}$/.test(pin);
+    }
+
+    // 生成随机用户ID
+    function generateUserId() {
+      return Math.random().toString(36).substring(2, 9).toUpperCase();
+    }
+
+    // 格式化时间
+    function formatTime() {
+      const now = new Date();
+      return now.toLocaleString('zh-CN', {
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit'
+      });
+    }
+
+    // 显示成功页面
+    function showSuccessPage(phone, isLogin = true) {
+      tabsEl.style.display = 'none';
+      loginForm.classList.remove('active');
+      registerForm.classList.remove('active');
+      successPage.classList.add('show');
+
+      successTitle.textContent = isLogin ? '登录成功' : '注册成功';
+      successMessage.textContent = isLogin ? '欢迎回来！' : '账户创建成功，欢迎加入！';
+      userPhone.textContent = phone.replace(/(\d{3})\d{4}(\d{4})/, '$1****$2');
+      userId.textContent = generateUserId();
+      loginTime.textContent = formatTime();
+    }
+
+    // 重置到登录页面
+    function resetToLogin() {
+      tabsEl.style.display = 'flex';
+      successPage.classList.remove('show');
+      loginForm.classList.add('active');
+      registerForm.classList.remove('active');
+
+      // 重置表单
+      loginForm.reset();
+      registerForm.reset();
+
+      // 重置 Tab 状态
+      tabs.forEach(t => t.classList.remove('active'));
+      tabs[0].classList.add('active');
+
+      // 清除错误状态
+      document.querySelectorAll('.form-input').forEach(input => {
+        input.classList.remove('error');
+      });
+      document.querySelectorAll('.error-text').forEach(error => {
+        error.classList.remove('show');
+      });
+    }
+
+    // Tab 切换
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const targetTab = tab.dataset.tab;
+
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+
+        if (targetTab === 'login') {
+          loginForm.classList.add('active');
+          registerForm.classList.remove('active');
+        } else {
+          loginForm.classList.remove('active');
+          registerForm.classList.add('active');
+        }
+      });
+    });
+
+    // 登录表单提交
+    loginForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      let hasError = false;
+
+      // 验证手机号
+      if (!validatePhone(loginPhone.value)) {
+        loginPhone.classList.add('error');
+        loginPhoneError.classList.add('show');
+        hasError = true;
+      } else {
+        loginPhone.classList.remove('error');
+        loginPhoneError.classList.remove('show');
+      }
+
+      // 验证密码
+      if (!loginPassword.value) {
+        loginPassword.classList.add('error');
+        loginPasswordError.classList.add('show');
+        hasError = true;
+      } else {
+        loginPassword.classList.remove('error');
+        loginPasswordError.classList.remove('show');
+      }
+
+      if (hasError) return;
+
+      // 模拟登录请求
+      const submitBtn = loginForm.querySelector('.submit-btn');
+      submitBtn.classList.add('loading');
+      submitBtn.disabled = true;
+
+      setTimeout(() => {
+        submitBtn.classList.remove('loading');
+        submitBtn.disabled = false;
+
+        showToast('登录成功！', 'success');
+
+        setTimeout(() => {
+          showSuccessPage(loginPhone.value, true);
+        }, 500);
+      }, 1500);
+    });
+
+    // 注册表单提交
+    registerForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      let hasError = false;
+
+      // 验证手机号
+      if (!validatePhone(regPhone.value)) {
+        regPhone.classList.add('error');
+        regPhoneError.classList.add('show');
+        hasError = true;
+      } else {
+        regPhone.classList.remove('error');
+        regPhoneError.classList.remove('show');
+      }
+
+      // 验证密码
+      if (!validatePassword(regPassword.value)) {
+        regPassword.classList.add('error');
+        regPasswordError.classList.add('show');
+        hasError = true;
+      } else {
+        regPassword.classList.remove('error');
+        regPasswordError.classList.remove('show');
+      }
+
+      // 验证二级密码
+      if (!validatePin(regPin.value)) {
+        regPin.classList.add('error');
+        regPinError.classList.add('show');
+        hasError = true;
+      } else {
+        regPin.classList.remove('error');
+        regPinError.classList.remove('show');
+      }
+
+      if (hasError) return;
+
+      // 模拟注册请求
+      const submitBtn = registerForm.querySelector('.submit-btn');
+      submitBtn.classList.add('loading');
+      submitBtn.disabled = true;
+
+      setTimeout(() => {
+        submitBtn.classList.remove('loading');
+        submitBtn.disabled = false;
+
+        showToast('注册成功！', 'success');
+
+        setTimeout(() => {
+          showSuccessPage(regPhone.value, false);
+        }, 500);
+      }, 1500);
+    });
+
+    // 退出登录
+    logoutBtn.addEventListener('click', () => {
+      showToast('已退出登录', 'success');
+      setTimeout(resetToLogin, 500);
+    });
+
+    // 输入时清除错误状态
+    document.querySelectorAll('.form-input').forEach(input => {
+      input.addEventListener('input', () => {
+        input.classList.remove('error');
+        const errorEl = input.nextElementSibling;
+        if (errorEl && errorEl.classList.contains('error-text')) {
+          errorEl.classList.remove('show');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>回执</title>
+    <meta name="color-scheme" content="light dark" />
+    <style>
+      :root{
+        --bg:#ffffff;
+        --subtle:#f5f5f7;
+        --text:#1d1d1f;
+        --muted:#6e6e73;
+        --line:#d2d2d7;
+
+        --link:#06c;
+        --linkHover:#0051a8;
+
+        --btnBg: rgba(0,0,0,0.04);
+        --btnBgHover: rgba(0,0,0,0.07);
+        --btnBorder: rgba(0,0,0,0.18);
+
+        --ok:#34c759;
+
+        --max:980px;
+        --pad:22px;
+        --r:12px;
+      }
+      @media (prefers-color-scheme: dark){
+        :root{
+          --bg:#000000;
+          --subtle:#1d1d1f;
+          --text:rgba(255,255,255,.92);
+          --muted:rgba(255,255,255,.62);
+          --line:rgba(255,255,255,.18);
+
+          --link:#2997ff;
+          --linkHover:#66b6ff;
+
+          --btnBg: rgba(255,255,255,0.10);
+          --btnBgHover: rgba(255,255,255,0.14);
+          --btnBorder: rgba(255,255,255,0.22);
+        }
+      }
+
+      *{box-sizing:border-box}
+      html,body{height:100%}
+      body{
+        margin:0;
+        background:var(--bg);
+        color:var(--text);
+        font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display","Helvetica Neue",Helvetica,Arial,
+          "PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+        -webkit-font-smoothing:antialiased;
+        -moz-osx-font-smoothing:grayscale;
+      }
+
+      .top{border-bottom:1px solid var(--line)}
+      .top .inner{
+        max-width:var(--max);
+        margin:0 auto;
+        padding:12px var(--pad);
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        gap:12px;
+      }
+      .brand{
+        display:flex;align-items:center;gap:10px;min-width:0;
+        font-weight:600;font-size:14px;letter-spacing:.2px;
+      }
+      .brand svg{width:16px;height:16px;flex:0 0 auto}
+      .brand span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+      a, .linkBtn{
+        color:var(--link);
+        text-decoration:none;
+        font-size:13px;
+        font-weight:600;
+        background:transparent;
+        border:0;
+        padding:0;
+        cursor:pointer;
+      }
+      a:hover, .linkBtn:hover{color:var(--linkHover);text-decoration:underline}
+
+      main{
+        max-width:var(--max);
+        margin:0 auto;
+        padding:28px var(--pad) 70px;
+      }
+
+      .hero{padding:18px 0 8px}
+      .heroRow{display:flex;align-items:flex-start;gap:14px}
+      .badge{
+        width:36px;height:36px;border-radius:999px;
+        display:grid;place-items:center;
+        background:color-mix(in srgb, var(--ok) 14%, transparent);
+        border:1px solid color-mix(in srgb, var(--ok) 38%, var(--line));
+        flex:0 0 auto;
+        margin-top:3px;
+      }
+      .badge svg{width:18px;height:18px}
+      h1{
+        margin:0;
+        font-size:clamp(28px,4.4vw,48px);
+        line-height:1.06;
+        letter-spacing:-0.02em;
+        font-weight:700;
+      }
+      .lead{
+        margin:10px 0 0;
+        color:var(--muted);
+        font-size:17px;
+        line-height:1.65;
+        max-width:64ch;
+      }
+
+      .panel{
+        margin-top:26px;
+        background:var(--subtle);
+        border-radius:var(--r);
+        padding:18px;
+      }
+      .panel h2{
+        margin:0 0 10px;
+        font-size:17px;
+        letter-spacing:-0.01em;
+        font-weight:700;
+      }
+
+      .list{
+        background:var(--bg);
+        border:1px solid var(--line);
+        border-radius:10px;
+        overflow:hidden;
+      }
+      .row{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        gap:12px;
+        padding:14px 14px;
+        border-top:1px solid var(--line);
+      }
+      .row:first-child{border-top:none}
+      .k{color:var(--muted);font-size:13px;min-width:64px}
+      .v{
+        font-size:14px;
+        font-weight:600;
+        letter-spacing:.01em;
+        text-align:right;
+        word-break:break-all;
+        margin-left:auto;
+      }
+      .mono{
+        font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+      }
+
+      .actions{
+        margin-top:14px;
+        display:flex;
+        flex-wrap:wrap;
+        gap:10px;
+        align-items:center;
+      }
+      .btn{
+        appearance:none;
+        border-radius:999px;
+        padding:10px 14px;
+        font-size:13px;
+        font-weight:700;
+        cursor:pointer;
+        background:var(--btnBg);
+        border:1px solid var(--btnBorder);
+        color:var(--text);
+        transition:background-color 120ms ease;
+      }
+      .btn:hover{background:var(--btnBgHover)}
+      .btn:focus-visible{
+        outline:3px solid rgba(0,0,0,0.18);
+        outline-offset:2px;
+      }
+      @media (prefers-color-scheme: dark){
+        .btn:focus-visible{outline:3px solid rgba(255,255,255,0.18)}
+      }
+
+      .backLink{
+        display:inline-flex;
+        align-items:center;
+        gap:6px;
+        font-size:13px;
+        font-weight:600;
+      }
+      .chev{width:12px;height:12px;opacity:.7}
+
+      .foot{
+        margin-top:36px;
+        padding-top:14px;
+        border-top:1px solid var(--line);
+        color:var(--muted);
+        font-size:12px;
+      }
+
+      .toast{
+        position:fixed;
+        left:50%;
+        bottom:16px;
+        transform:translateX(-50%);
+        background:var(--bg);
+        border:1px solid var(--line);
+        border-radius:12px;
+        padding:10px 12px;
+        color:var(--text);
+        font-size:13px;
+        display:none;
+        align-items:center;
+        gap:10px;
+      }
+      .toast.show{display:inline-flex}
+
+      @media (max-width:520px){
+        .heroRow{gap:12px}
+        .badge{width:32px;height:32px}
+        .panel{padding:14px}
+        .row{padding:12px 12px}
+      }
+      @media (prefers-reduced-motion:reduce){
+        *{transition:none!important}
+      }
+    </style>
+  </head>
+  <body>
+    <header class="top">
+      <div class="inner">
+        <div class="brand" aria-label="Apple Support">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M16.7 13.2c0-2 1.7-3 1.8-3.1c-1-1.4-2.5-1.6-3-1.6c-1.3-.1-2.5.7-3.1.7c-.6 0-1.6-.7-2.6-.7c-1.3 0-2.6.8-3.3 2c-1.4 2.4-.4 6 1 8c.7 1 1.5 2.1 2.6 2.1c1 0 1.4-.7 2.7-.7c1.2 0 1.6.7 2.7.7c1.1 0 1.9-1.1 2.5-2.1c.8-1.1 1.1-2.2 1.1-2.3c0 0-2.4-.9-2.4-3Z"/>
+            <path fill="currentColor" d="M14.7 4.5c.6-.7 1-1.6.9-2.5c-.9.1-2 .6-2.6 1.3c-.6.7-1 1.6-.9 2.5c1 0 2-.5 2.6-1.3Z"/>
+          </svg>
+          <span>支持回执</span>
+        </div>
+
+        <a href="#" id="backTop">返回</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="回执">
+        <div class="heroRow">
+          <div class="badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path fill="currentColor" d="M9.2 16.6 4.9 12.3l1.4-1.4 2.9 2.9 7.2-7.2 1.4 1.4z"/>
+            </svg>
+          </div>
+
+          <div>
+            <h1>您的工单已提交</h1>
+            <p class="lead">我们将在 <strong>24 小时内</strong>与您取得联系。请您保持手机畅通。</p>
+            <div style="margin-top:12px">
+              <a class="backLink" href="#" id="backHero">
+                <svg class="chev" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="currentColor" d="M15.4 19.4 8 12l7.4-7.4 1.2 1.2L10.4 12l6.2 6.2z"/>
+                </svg>
+                返回
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" aria-label="工单信息">
+        <h2>工单信息</h2>
+
+        <div class="list" role="list">
+          <div class="row" role="listitem">
+            <div class="k">工单号</div>
+            <div class="v mono" id="ticketId">—</div>
+            <button class="linkBtn" id="copyTicket" type="button">复制</button>
+          </div>
+
+          <div class="row" role="listitem">
+            <div class="k">提交时间</div>
+            <div class="v mono" id="submittedAt">—</div>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button class="btn" id="saveBtn" type="button">保存回执</button>
+          <button class="btn" id="copyAllBtn" type="button">复制全部信息</button>
+        </div>
+      </section>
+
+      <div class="foot">© <span id="year"></span> 示例页面</div>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">
+      <span id="toastText">已完成</span>
+    </div>
+
+    <script>
+      function pad2(n){ return String(n).padStart(2,"0"); }
+
+      // 你指定：时间固定为 09:15（不再取当前时间）
+      function fixedSubmittedAt(){
+        const d = new Date();
+        const y=d.getFullYear();
+        const m=pad2(d.getMonth()+1);
+        const day=pad2(d.getDate());
+        return `${y}-${m}-${day} 09:15`;
+      }
+
+      function genTicketId(){
+        const alphabet="ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+        const bytes=crypto.getRandomValues(new Uint8Array(10));
+        let body="";
+        for(let i=0;i<bytes.length;i++) body+=alphabet[bytes[i]%alphabet.length];
+        const yy=String(new Date().getFullYear()).slice(-2);
+        return `A-${yy}-${body.slice(0,4)}-${body.slice(4,8)}`;
+      }
+
+      function getState(){
+        const u=new URL(location.href);
+        const t=u.searchParams.get("ticket");
+        // 允许 URL 传 at，但若未传则强制 09:15
+        const at=u.searchParams.get("at");
+
+        const ticketId=(t && t.trim()) ? t.trim() : genTicketId();
+        const submittedAt=(at && at.trim()) ? at.trim() : fixedSubmittedAt();
+
+        return { ticketId, submittedAt };
+      }
+
+      function showToast(text){
+        const el=document.getElementById("toast");
+        document.getElementById("toastText").textContent=text;
+        el.classList.add("show");
+        clearTimeout(showToast._t);
+        showToast._t=setTimeout(()=>el.classList.remove("show"),1200);
+      }
+
+      async function copyText(text){
+        try{
+          await navigator.clipboard.writeText(text);
+          return true;
+        }catch{
+          const ta=document.createElement("textarea");
+          ta.value=text;
+          ta.style.position="fixed";
+          ta.style.left="-9999px";
+          document.body.appendChild(ta);
+          ta.select();
+          const ok=document.execCommand("copy");
+          ta.remove();
+          return ok;
+        }
+      }
+
+      function downloadReceipt(ticketId, submittedAt){
+        const content =
+`工单回执
+工单号：${ticketId}
+提交时间：${submittedAt}
+
+您的工单已提交，我们将在24小时内与您取得联系。请您保持手机畅通。`;
+        const blob=new Blob([content],{type:"text/plain;charset=utf-8"});
+        const a=document.createElement("a");
+        a.href=URL.createObjectURL(blob);
+        a.download=`receipt-${ticketId}.txt`;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(a.href);
+      }
+
+      (function init(){
+        const { ticketId, submittedAt } = getState();
+        document.getElementById("ticketId").textContent=ticketId;
+        document.getElementById("submittedAt").textContent=submittedAt;
+        document.getElementById("year").textContent=String(new Date().getFullYear());
+
+        function goBack(e){
+          if(e) e.preventDefault();
+          history.length > 1 ? history.back() : (location.href="#");
+        }
+        document.getElementById("backTop").addEventListener("click", goBack);
+        document.getElementById("backHero").addEventListener("click", goBack);
+
+        document.getElementById("copyTicket").addEventListener("click", async ()=>{
+          const ok=await copyText(ticketId);
+          showToast(ok ? "工单号已复制" : "复制失败");
+        });
+
+        document.getElementById("saveBtn").addEventListener("click", ()=>{
+          downloadReceipt(ticketId, submittedAt);
+          showToast("回执已保存");
+        });
+
+        document.getElementById("copyAllBtn").addEventListener("click", async ()=>{
+          const text =
+`工单号：${ticketId}
+提交时间：${submittedAt}
+提示：您的工单已提交，我们将在24小时内与您取得联系。请您保持手机畅通`;
+          const ok=await copyText(text);
+          showToast(ok ? "信息已复制" : "复制失败");
+        });
+      })();
+    </script>
+  </body>
+</html>

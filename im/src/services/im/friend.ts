@@ -158,7 +158,7 @@ class IMFriendService {
    * @param requestId 申请 ID
    * @returns 双向好友记录和会话
    */
-  async acceptRequest(userId: string, requestId: string): Promise<{ friend: Friend; reverse: Friend; conversationId: string }> {
+  async acceptRequest(userId: string, requestId: string): Promise<{ friend: Friend & { friendUser?: User }; reverse: Friend; conversationId: string }> {
     const request = await FriendRequest.findByPk(requestId);
     if (!request) {
       const error = new Error("申请不存在") as Error & { status?: number };
@@ -246,7 +246,19 @@ class IMFriendService {
       });
     }
 
-    return result;
+    // 获取对方用户信息，附加到 friend 对象返回
+    const friendUser = await User.findByPk(request.fromUserId, {
+      attributes: ["id", "code", "name", "avatar", "gender", "lastOnlineAt"],
+    });
+
+    return {
+      friend: {
+        ...result.friend.toJSON(),
+        friendUser: friendUser || undefined,
+      } as Friend & { friendUser?: User },
+      reverse: result.reverse,
+      conversationId: result.conversationId,
+    };
   }
 
   /**

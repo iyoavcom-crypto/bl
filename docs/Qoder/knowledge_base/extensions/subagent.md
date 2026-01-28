@@ -1,0 +1,60 @@
+# 自定义 Subagent
+
+Subagent 是 Qoder 中专门用于处理特定任务的 AI Agent。你可以创建自定义 Subagent 来扩展 Qoder 的能力，每个 Subagent 拥有独立的上下文窗口、工具权限和系统提示词。
+
+## 创建 Subagent
+
+在以下位置创建一个 `.md` 文件：
+
+| 位置 | 路径 | 作用域 |
+| :--- | :--- | :--- |
+| **用户级** | `~/.qoder/agents/<agentName>.md` | 所有项目 |
+| **项目级** | `${project}/.qoder/agents/<agentName>.md` | 仅当前项目 |
+
+文件需要包含 frontmatter 区块定义基本信息，以及系统提示词内容：
+
+```markdown
+---
+name: code-review
+description: 代码审查专家，检查代码质量和安全性
+tools: Read, Grep, Glob, Bash
+---
+
+你是一位资深代码审查员，负责确保代码质量。
+
+审查清单：
+1. 代码可读性
+2. 命名规范
+3. 错误处理
+4. 安全性检查
+5. 测试覆盖
+```
+
+| 字段 | 必填 | 说明 |
+| :--- | :--- | :--- |
+| **name** | 是 | Subagent 的唯一标识名称 |
+| **description** | 是 | 简短描述功能和专长，用于模型自动选择 |
+| **tools** | 否 | 允许使用的工具列表，用逗号分隔 |
+
+## 支持的工具列表
+
+| 工具名称 | 说明 |
+| :--- | :--- |
+| **Shell** | 在您的环境中执行 shell 命令 |
+| **Edit** | 对特定文件进行有针对性的编辑 |
+| **Write** | 创建或覆盖文件 |
+| **Glob** | 检索文件 |
+| **Grep** | 检索文件内容 |
+| **Read** | 读取文件的内容 |
+| **WebFetch** | 从指定的 URL 获取内容 |
+| **WebSearch** | 执行带有域过滤的 Web 搜索 |
+
+## 在 IDE 中使用
+
+在 Chat 面板中，用自然语言描述任务，模型会根据 description 自动选择合适的 Subagent：
+
+> 帮我审查这个接口的实现
+
+## 详细文档
+
+关于 Subagent 的完整指南，包括自动创建、CLI 中的使用方式等，请参阅 [CLI 使用文档](file:///absolute/path/to/docs/Qoder/knowledge_base/cli/using_cli.md)。

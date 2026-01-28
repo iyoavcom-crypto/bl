@@ -268,16 +268,22 @@ export const useFriendStore = create<FriendState>()(
 
     acceptRequest: async (requestId: string): Promise<void> => {
       try {
-        // 后端返回 { friend: Friend, request: FriendRequest }
-        const response = await api.post<{ friend: Friend; request: FriendRequest }>(
+        // 后端返回 { friend: Friend & { friendUser }, reverse: Friend, conversationId: string }
+        const response = await api.post<{ friend: any; reverse: any; conversationId: string }>(
           `/api/im/friends/requests/${requestId}/accept`
         );
-        const data = response as unknown as { friend: Friend; request: FriendRequest };
+        const data = response as unknown as { friend: any; reverse: any; conversationId: string };
+
+        // 映射 friendUser -> friend
+        const friendWithUser: Friend = {
+          ...data.friend,
+          friend: data.friend.friendUser,
+        };
 
         set((state) => {
           state.receivedRequests = state.receivedRequests.filter((r) => r.id !== requestId);
           state.pendingRequestCount = Math.max(0, state.pendingRequestCount - 1);
-          state.friends.unshift(data.friend);
+          state.friends.unshift(friendWithUser);
         });
       } catch (err) {
         const message = err instanceof Error ? err.message : '接受好友申请失败';

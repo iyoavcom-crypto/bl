@@ -1,0 +1,9 @@
+{
+  "CFBundleDisplayName": "BaoLiao",
+  "NSMicrophoneUsageDescription": "BaoLiao needs microphone access for voice calls and voice messages",
+  "NSCameraUsageDescription": "BaoLiao needs camera access to take photos",
+  "NSPhotoLibraryUsageDescription": "BaoLiao needs photo library access to select images",
+  "NSPhotoLibraryAddUsageDescription": "BaoLiao needs to save images to your photo library",
+  "NSContactsUsageDescription": "BaoLiao needs contacts access to add friends",
+  "NSFaceIDUsageDescription": "Use Face ID to secure your account"
+}

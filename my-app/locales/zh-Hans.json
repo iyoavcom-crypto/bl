@@ -1,0 +1,9 @@
+{
+  "CFBundleDisplayName": "包聊",
+  "NSMicrophoneUsageDescription": "包聊需要访问麦克风以进行语音通话和发送语音消息",
+  "NSCameraUsageDescription": "包聊需要访问相机以拍照发送图片",
+  "NSPhotoLibraryUsageDescription": "包聊需要访问相册以选择图片发送",
+  "NSPhotoLibraryAddUsageDescription": "包聊需要保存图片到相册",
+  "NSContactsUsageDescription": "包聊需要访问通讯录以添加好友",
+  "NSFaceIDUsageDescription": "使用 Face ID 保护您的账户安全"
+}

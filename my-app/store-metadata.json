@@ -1,0 +1,40 @@
+{
+  "appStoreMetadata": {
+    "name": "包聊",
+    "subtitle": "安全高效的即时通讯",
+    "primaryCategory": "SOCIAL_NETWORKING",
+    "secondaryCategory": "UTILITIES",
+    "ageRating": "12+",
+    "description": {
+      "zh-Hans": "包聊是一款安全、高效的即时通讯应用，为您提供流畅的聊天体验。\n\n主要功能：\n• 即时消息 - 文字、图片、语音消息\n• 语音通话 - 高质量语音通话\n• 群组聊天 - 创建和管理群组\n• 通讯录 - 轻松添加和管理好友\n• 隐私保护 - 端到端安全传输\n\n特点：\n- 简洁直观的界面设计\n- 快速稳定的消息传输\n- 支持深色模式\n- 低流量消耗",
+      "en": "BaoLiao is a secure and efficient instant messaging app that provides a smooth chat experience.\n\nKey Features:\n• Instant Messaging - Text, images, voice messages\n• Voice Calls - High-quality voice calls\n• Group Chat - Create and manage groups\n• Contacts - Easily add and manage friends\n• Privacy Protection - End-to-end secure transmission\n\nHighlights:\n- Clean and intuitive interface design\n- Fast and stable message delivery\n- Dark mode support\n- Low data consumption"
+    },
+    "keywords": {
+      "zh-Hans": "聊天,通讯,即时消息,语音,社交,好友,群聊,安全",
+      "en": "chat,messaging,instant,voice,social,friends,group,secure"
+    },
+    "supportUrl": "https://baoliao.im/support",
+    "marketingUrl": "https://baoliao.im",
+    "privacyPolicyUrl": "https://baoliao.im/privacy",
+    "version": "1.0.0",
+    "whatsNew": {
+      "zh-Hans": "首次发布\n- 即时消息功能\n- 语音通话\n- 群组聊天\n- 好友管理",
+      "en": "Initial Release\n- Instant messaging\n- Voice calls\n- Group chat\n- Friend management"
+    }
+  },
+  "reviewNotes": "测试账号：\n手机号：13800138000\n密码：test123456\n\n主要测试流程：\n1. 使用测试账号登录\n2. 查看消息列表\n3. 发送文字消息\n4. 查看通讯录\n5. 个人中心设置",
+  "screenshots": {
+    "required": [
+      "6.7英寸 (iPhone 15 Pro Max) - 至少3张",
+      "6.5英寸 (iPhone 14 Plus) - 可选",
+      "12.9英寸 iPad Pro - 如支持iPad"
+    ],
+    "suggested": [
+      "登录/注册页面",
+      "消息列表页面",
+      "聊天对话页面",
+      "通讯录页面",
+      "个人中心页面"
+    ]
+  }
+}

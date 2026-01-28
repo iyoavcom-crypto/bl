@@ -1,0 +1,1 @@
+{"mcpServers":{"im-api":{"command":"node","args":["mcp-server/mcp-server.js"],"type":"stdio","WorkingDir":"","InProcessMcpServer":null}}}
