@@ -18,7 +18,7 @@ import { useHeaderHeight } from '@react-navigation/elements';
 import { Ionicons } from '@expo/vector-icons';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import type { ChatsStackParamList } from '@/navigation/types';
-import { useMessageStore, useAuthStore } from '@/stores';
+import { useMessageStore, useAuthStore, useConversationStore } from '@/stores';
 import type { Message } from '@/types';
 
 type Props = NativeStackScreenProps<ChatsStackParamList, 'ChatRoom'>;
@@ -37,6 +37,7 @@ export function ChatRoomScreen({ route, navigation }: Props) {
 
   const { user } = useAuthStore();
   const messageStore = useMessageStore();
+  const { clearUnread } = useConversationStore();
   const messages = messageStore.getMessagesByConversation(conversationId);
   const hasMore = messageStore.hasMore[conversationId] ?? true;
   const isLoading = messageStore.isLoading;
@@ -59,6 +60,8 @@ export function ChatRoomScreen({ route, navigation }: Props) {
   useEffect(() => {
     console.log('[ChatRoomScreen] Initial load messages');
     messageStore.fetchMessages(conversationId, 1, 30);
+    // 清除未读数
+    clearUnread(conversationId);
   }, [conversationId]);
 
   // 加载更多历史消息
