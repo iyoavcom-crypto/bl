@@ -8,6 +8,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import * as Notifications from 'expo-notifications';
+import { soundService } from '@/services/sound';
 
 export function NotificationSettingsScreen() {
   const [notificationsEnabled, setNotificationsEnabled] = useState(true);
@@ -16,11 +17,19 @@ export function NotificationSettingsScreen() {
 
   useEffect(() => {
     checkPermissions();
+    loadSettings();
   }, []);
 
   const checkPermissions = async () => {
     const { status } = await Notifications.getPermissionsAsync();
     setNotificationsEnabled(status === 'granted');
+  };
+
+  const loadSettings = async () => {
+    await soundService.init();
+    const settings = soundService.getSettings();
+    setSoundEnabled(settings.soundEnabled);
+    setVibrationEnabled(settings.vibrationEnabled);
   };
 
   const handleToggleNotifications = async (value: boolean) => {
@@ -30,6 +39,16 @@ export function NotificationSettingsScreen() {
     } else {
       setNotificationsEnabled(false);
     }
+  };
+
+  const handleToggleSound = async (value: boolean) => {
+    setSoundEnabled(value);
+    await soundService.saveSettings({ soundEnabled: value });
+  };
+
+  const handleToggleVibration = async (value: boolean) => {
+    setVibrationEnabled(value);
+    await soundService.saveSettings({ vibrationEnabled: value });
   };
 
   const settingsItems = [
@@ -43,14 +62,14 @@ export function NotificationSettingsScreen() {
       title: '声音',
       subtitle: '新消息提示音',
       value: soundEnabled,
-      onValueChange: setSoundEnabled,
+      onValueChange: handleToggleSound,
       disabled: !notificationsEnabled,
     },
     {
       title: '振动',
       subtitle: '新消息振动提醒',
       value: vibrationEnabled,
-      onValueChange: setVibrationEnabled,
+      onValueChange: handleToggleVibration,
       disabled: !notificationsEnabled,
     },
   ];

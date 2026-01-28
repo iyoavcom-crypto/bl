@@ -1,12 +1,25 @@
 /**
- * 音频服务 - 播放消息提示音
+ * 音频和震动服务 - 播放消息提示音和震动反馈
  */
 
 import { Audio } from 'expo-av';
+import * as Haptics from 'expo-haptics';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
+const SETTINGS_KEY = '@notification_settings';
+
+interface NotificationSettings {
+  soundEnabled: boolean;
+  vibrationEnabled: boolean;
+}
 
 class SoundService {
   private messageSound: Audio.Sound | null = null;
   private isInitialized = false;
+  private settings: NotificationSettings = {
+    soundEnabled: true,
+    vibrationEnabled: true,
+  };
 
   /**
    * 初始化音频服务
@@ -15,6 +28,9 @@ class SoundService {
     if (this.isInitialized) return;
 
     try {
+      // 加载设置
+      await this.loadSettings();
+
       // 设置音频模式
       await Audio.setAudioModeAsync({
         playsInSilentModeIOS: false,
@@ -22,15 +38,7 @@ class SoundService {
         shouldDuckAndroid: true,
       });
 
-      // 预加载消息提示音
-      const { sound } = await Audio.Sound.createAsync(
-        // 使用简单的提示音 - 可替换为本地文件
-        { uri: 'https://cdn.pixabay.com/audio/2022/03/10/audio_c8c8a73467.mp3' },
-        { shouldPlay: false, volume: 0.5 }
-      );
-      this.messageSound = sound;
       this.isInitialized = true;
-
       console.log('[SoundService] 初始化成功');
     } catch (err) {
       console.error('[SoundService] 初始化失败:', err);
@@ -38,21 +46,54 @@ class SoundService {
   }
 
   /**
-   * 播放新消息提示音
+   * 加载通知设置
+   */
+  async loadSettings(): Promise<void> {
+    try {
+      const stored = await AsyncStorage.getItem(SETTINGS_KEY);
+      if (stored) {
+        this.settings = JSON.parse(stored);
+      }
+    } catch (err) {
+      console.error('[SoundService] 加载设置失败:', err);
+    }
+  }
+
+  /**
+   * 保存通知设置
+   */
+  async saveSettings(settings: Partial<NotificationSettings>): Promise<void> {
+    try {
+      this.settings = { ...this.settings, ...settings };
+      await AsyncStorage.setItem(SETTINGS_KEY, JSON.stringify(this.settings));
+    } catch (err) {
+      console.error('[SoundService] 保存设置失败:', err);
+    }
+  }
+
+  /**
+   * 获取当前设置
+   */
+  getSettings(): NotificationSettings {
+    return { ...this.settings };
+  }
+
+  /**
+   * 播放新消息提示音和震动
    */
   async playMessageSound(): Promise<void> {
     try {
-      if (!this.messageSound) {
-        await this.init();
+      // 震动反馈
+      if (this.settings.vibrationEnabled) {
+        await Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
       }
 
-      if (this.messageSound) {
-        // 重置到开头并播放
-        await this.messageSound.setPositionAsync(0);
-        await this.messageSound.playAsync();
+      // 播放声音 - 使用系统触觉反馈代替音频
+      if (this.settings.soundEnabled) {
+        await Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
       }
     } catch (err) {
-      console.error('[SoundService] 播放提示音失败:', err);
+      console.error('[SoundService] 播放提示失败:', err);
     }
   }
 
