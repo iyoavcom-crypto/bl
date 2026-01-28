@@ -83,6 +83,9 @@ class SoundService {
    */
   async playMessageSound(): Promise<void> {
     try {
+      // 每次播放前重新加载设置
+      await this.loadSettings();
+
       // 震动反馈
       if (this.settings.vibrationEnabled) {
         await Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
