@@ -1,11 +1,12 @@
 /**
- * 音频和震动服务 - 播放消息提示音和震动反馈
+ * 音频服务 - 播放消息提示音
  */
 
-import * as Haptics from 'expo-haptics';
+import { Audio } from 'expo-av';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const SETTINGS_KEY = '@notification_settings';
+const SOUND_URL = 'https://assets.mixkit.co/active_storage/sfx/2869/2869-preview.mp3';
 
 interface NotificationSettings {
   soundEnabled: boolean;
@@ -60,19 +61,30 @@ class SoundService {
   }
 
   /**
-   * 播放新消息提示（声音+震动）
+   * 播放新消息提示音
    */
   async playMessageSound(): Promise<void> {
     try {
       // 每次播放前重新加载设置
       await this.loadSettings();
 
-      // 声音开关控制：打开则有声音+震动，关闭则静默
-      if (this.settings.soundEnabled) {
-        await Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+      // 声音关闭时直接返回
+      if (!this.settings.soundEnabled) {
+        return;
       }
+
+      // 播放音频
+      const { sound } = await Audio.Sound.createAsync(
+        { uri: SOUND_URL },
+        { shouldPlay: true }
+      );
+      sound.setOnPlaybackStatusUpdate((status) => {
+        if (status.isLoaded && status.didJustFinish) {
+          sound.unloadAsync();
+        }
+      });
     } catch (err) {
-      console.error('[SoundService] 播放提示失败:', err);
+      console.error('[SoundService] 播放提示音失败:', err);
     }
   }
 
