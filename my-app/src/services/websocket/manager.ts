@@ -186,10 +186,12 @@ class WebSocketManager {
     }
   }
 
-  private handleError(event: Event): void {
+  private handleError(_event: Event): void {
+    // WebSocket 错误事件不包含有用信息，静默处理
+    // 连接失败会触发 onclose，在那里处理重连
     if (__DEV__) {
       // eslint-disable-next-line no-console
-      console.error('[WS] Error:', event);
+      console.log('[WS] Connection error, will retry...');
     }
   }
 
