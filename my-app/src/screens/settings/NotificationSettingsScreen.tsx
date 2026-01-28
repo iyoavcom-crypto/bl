@@ -13,7 +13,6 @@ import { soundService } from '@/services/sound';
 export function NotificationSettingsScreen() {
   const [notificationsEnabled, setNotificationsEnabled] = useState(true);
   const [soundEnabled, setSoundEnabled] = useState(true);
-  const [vibrationEnabled, setVibrationEnabled] = useState(true);
 
   useEffect(() => {
     checkPermissions();
@@ -29,7 +28,6 @@ export function NotificationSettingsScreen() {
     await soundService.init();
     const settings = soundService.getSettings();
     setSoundEnabled(settings.soundEnabled);
-    setVibrationEnabled(settings.vibrationEnabled);
   };
 
   const handleToggleNotifications = async (value: boolean) => {
@@ -46,11 +44,6 @@ export function NotificationSettingsScreen() {
     await soundService.saveSettings({ soundEnabled: value });
   };
 
-  const handleToggleVibration = async (value: boolean) => {
-    setVibrationEnabled(value);
-    await soundService.saveSettings({ vibrationEnabled: value });
-  };
-
   const settingsItems = [
     {
       title: '允许通知',
@@ -60,16 +53,9 @@ export function NotificationSettingsScreen() {
     },
     {
       title: '声音',
-      subtitle: '新消息提示音',
+      subtitle: '新消息提示音和振动',
       value: soundEnabled,
       onValueChange: handleToggleSound,
-      disabled: !notificationsEnabled,
-    },
-    {
-      title: '振动',
-      subtitle: '新消息振动提醒',
-      value: vibrationEnabled,
-      onValueChange: handleToggleVibration,
       disabled: !notificationsEnabled,
     },
   ];

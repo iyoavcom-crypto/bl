@@ -2,7 +2,6 @@
  * 音频和震动服务 - 播放消息提示音和震动反馈
  */
 
-import { Audio } from 'expo-av';
 import * as Haptics from 'expo-haptics';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
@@ -10,39 +9,21 @@ const SETTINGS_KEY = '@notification_settings';
 
 interface NotificationSettings {
   soundEnabled: boolean;
-  vibrationEnabled: boolean;
 }
 
 class SoundService {
-  private messageSound: Audio.Sound | null = null;
   private isInitialized = false;
   private settings: NotificationSettings = {
     soundEnabled: true,
-    vibrationEnabled: true,
   };
 
   /**
-   * 初始化音频服务
+   * 初始化服务
    */
   async init(): Promise<void> {
     if (this.isInitialized) return;
-
-    try {
-      // 加载设置
-      await this.loadSettings();
-
-      // 设置音频模式
-      await Audio.setAudioModeAsync({
-        playsInSilentModeIOS: false,
-        staysActiveInBackground: false,
-        shouldDuckAndroid: true,
-      });
-
-      this.isInitialized = true;
-      console.log('[SoundService] 初始化成功');
-    } catch (err) {
-      console.error('[SoundService] 初始化失败:', err);
-    }
+    await this.loadSettings();
+    this.isInitialized = true;
   }
 
   /**
@@ -79,21 +60,16 @@ class SoundService {
   }
 
   /**
-   * 播放新消息提示音和震动
+   * 播放新消息提示（声音+震动）
    */
   async playMessageSound(): Promise<void> {
     try {
       // 每次播放前重新加载设置
       await this.loadSettings();
 
-      // 震动反馈
-      if (this.settings.vibrationEnabled) {
-        await Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-      }
-
-      // 播放声音 - 使用系统触觉反馈代替音频
+      // 声音开关控制：打开则有声音+震动，关闭则静默
       if (this.settings.soundEnabled) {
-        await Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+        await Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
       }
     } catch (err) {
       console.error('[SoundService] 播放提示失败:', err);
@@ -101,18 +77,10 @@ class SoundService {
   }
 
   /**
-   * 释放音频资源
+   * 释放资源
    */
   async cleanup(): Promise<void> {
-    try {
-      if (this.messageSound) {
-        await this.messageSound.unloadAsync();
-        this.messageSound = null;
-      }
-      this.isInitialized = false;
-    } catch (err) {
-      console.error('[SoundService] 清理失败:', err);
-    }
+    this.isInitialized = false;
   }
 }
 
