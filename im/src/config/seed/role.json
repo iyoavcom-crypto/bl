@@ -1,0 +1,27 @@
+[
+  {
+    "id": "minister",
+    "name": "部长",
+    "group": "admin"
+  },
+  {
+    "id": "teamleader",
+    "name": "团队负责人",
+    "group": "admin"
+  },
+  {
+    "id": "teammember",
+    "name": "团队成员",
+    "group": "admin"
+  },
+    {
+    "id": "maintain",
+    "name": "维护",
+    "group": "admin"
+  },
+   {
+    "id": "user",
+    "name": "普通用户",
+    "group": "user"
+  }
+]
